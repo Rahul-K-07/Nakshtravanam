@@ -1,0 +1,97 @@
+/* Global Styles */
+.m-Head {
+    font-family: "Monoton";
+    font-size: 2rem;
+    text-decoration: underline;
+    text-align: center;
+    margin: 15px;
+    color: white;
+}
+
+.m-frame {
+    background-color: #9ba55b;
+    padding: 2rem;
+    max-width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Carousel styling to match the card size */
+.carousel-inner {
+    width: 100%;
+    /* Full width */
+    max-width: 800px;
+    /* Matches the card's maximum width */
+    height: auto;
+    /* Responsive height */
+    margin: auto;
+    /* Center the carousel */
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.6);
+    /* Darker shadow effect */
+    border-top-right-radius: 33px;
+    border-bottom-left-radius: 33px;
+}
+
+
+.sCard {
+    border-top-right-radius: 33px;
+    border-bottom-left-radius: 33px;
+    background-color: #ffffff;
+    padding: 1.5rem;
+    margin: 2rem;
+    width: 100%;
+    /* Full width */
+    max-width: 800px;
+    /* Matches the carousel's maximum width */
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.6);
+}
+
+.s-Head {
+    font-size: 1.5rem;
+    text-decoration: underline;
+    font-family: "Caveat", cursive;
+    font-weight: bold;
+}
+
+.s-Para {
+    font-size: 1rem;
+    font-family: "Open Sans", sans-serif;
+}
+
+.ss-head {
+    font-weight: bold;
+    padding: 3px;
+}
+
+/* Responsive adjustments for tablets and smaller screens */
+@media (max-width: 768px) {
+    .m-Head {
+        font-size: 1.5rem;
+    }
+
+    .carousel-inner,
+    .sCard {
+        width: 95%;
+        /* Adjust width for tablets */
+    }
+}
+
+/* Responsive adjustments for mobile devices */
+@media (max-width: 480px) {
+    .m-Head {
+        font-size: 1.25rem;
+    }
+
+    .carousel-inner,
+    .sCard {
+        width: 100%;
+        /* Full width for mobile devices */
+        padding: 0.75rem;
+        margin: 0.5rem;
+    }
+}
+
+.pp {
+    padding: 3px;
+}
